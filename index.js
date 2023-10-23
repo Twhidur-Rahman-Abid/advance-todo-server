@@ -6,7 +6,13 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 9000; //  chose port from here like 8080, 3001
 
+const rules = auth.rewriter({
+  auth: 640,
+  tasks: 660,
+});
+
 server.use(middlewares);
+server.use(rules);
 server.use(auth);
 server.use(router);
 

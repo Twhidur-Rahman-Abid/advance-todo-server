@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "email": "admin@learnwithsumit.com",
-      "password": "$2a$10$/TDPCTU28mFzKnSsW2pHSu512mpMKxLf8eiPbcTFLSNL87tbZBp3W",
-      "name": "LWS Admin",
+      "email": "abid@gmail.com",
+      "password": "$2a$10$y2mk3HizhVYbu2pGrKbORO2KjYKApzAzjtVo7Mex2bkGZJth7b4WO",
+      "name": "Towhidur Rahman Abid",
       "id": 1
     }
   ],
@@ -11,17 +11,14 @@
     {
       "is_complete": false,
       "task": "create new project ",
+      "user_id": 1,
       "id": 1
     },
     {
       "is_complete": true,
-      "task": "create react project",
-      "id": 2
-    },
-    {
-      "is_complete": false,
       "task": "create react project ",
-      "id": 3
+      "user_id": 1,
+      "id": 2
     }
   ]
 }
